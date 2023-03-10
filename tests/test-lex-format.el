@@ -47,4 +47,11 @@
     (it "should use lex-to-string to format objects if the method is defined"
       (expect (let ((a (make-bar)))
                 (lex-format "{{a}}"))
-              :to-equal "obj is bar with slot nil"))))
+              :to-equal "obj is bar with slot nil")))
+
+  (describe "format string"
+    (it "should work even when the format string is not know"
+      (expect (let ((a 1)
+                    (fmt "format {{a}}"))
+                (lex-format fmt))
+              :to-equal "format 1"))))
