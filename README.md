@@ -1,3 +1,5 @@
+**[DEPRECATED] The hack this was relying on was removed in Emacs 29.1.  It won't work anymore.**
+
 # lex-format [![CI](https://github.com/Fuco1/emacs-lex-format/actions/workflows/test.yml/badge.svg)](https://github.com/Fuco1/emacs-lex-format/actions/workflows/test.yml)
 
 Lexical scope aware format strings with {{mustache}} templating.
