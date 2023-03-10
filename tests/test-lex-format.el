@@ -7,7 +7,7 @@
 
 (cl-defstruct bar a)
 
-(cl-defmethod lex-to-string ((obj bar))
+(cl-defmethod lex-format-to-string ((obj bar))
   (format "obj is bar with slot %s" (bar-a obj)))
 
 (describe "lex-format"
