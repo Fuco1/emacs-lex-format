@@ -1,4 +1,4 @@
-# lex-format [![test](https://github.com/Fuco1/lex-format/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/Fuco1/lex-format/actions/workflows/test.yml)
+# lex-format [![CI](https://github.com/Fuco1/emacs-lex-format/actions/workflows/test.yml/badge.svg)](https://github.com/Fuco1/emacs-lex-format/actions/workflows/test.yml)
 
 Lexical scope aware format strings with {{mustache}} templating.
 
